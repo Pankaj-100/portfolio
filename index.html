@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pankaj Choudhary's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+
+</head>
+<body>
+    
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="container nav-container">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="container">
+            <h1>PANKAJ CHOUDHARY</h1>
+            <p>Programmer • Web Developer</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/pankaj-choudhary-2b5744184?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+                <a href="mycv11.pdf"><i class="fas fa-file-pdf"></i></a>
+                <a href="mailto:pankajtech1234@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    
+<section id="about">
+    <div class="container about-content">
+        <div class="about-image">
+            <img src="asset\PP.jpeg" alt="Pankaj Choudhary">
+        </div>
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p>Hi, I'm Pankaj Choudhary, a 23-years-old front-end developer and programmer with a passion for building innovative web solutions. I have done Master of Science in Information Technology in 2024, I'm equipped with a strong foundation in programming languages and web technologies. Eager to start a rewarding career as a developer in a tech-driven company. As a front-end developer, I specialize in crafting responsive, user-friendly interfaces that bring ideas to life. My expertise lies in HTML, CSS, JavaScript, ReactJS. I'm always eager to explore new technologies and stay up-to-date with industry trends. With a strong academic background and a drive to continuously learn, I'm confident in my ability to deliver high-quality solutions that meet and exceed client expectations. My goal is to become a proficient web developer, and I'm excited to showcase my projects and skills in this portfolio. Feel free to explore my work, and let's connect .
+                </p>
+        </div>
+        
+    </div>
+ <h1>Skills</h1>
+    <div class="skills-container">
+        
+    
+        <div class="section">
+          <h3>Languages</h3>
+          <ul>
+            <li><img src="asset\python.png" alt="Python logo"></li>
+            <li><img src="asset\c.png" alt="C++ logo"></li>
+            <br>
+            <li><img src="asset\javascript.png" alt="JavaScript logo"></li>
+            <li><img src="asset\php.png" alt="php logo"></li>
+          </ul>
+        </div>
+    
+        <div class="section">
+          <h3>Web Technologies</h3>
+          <ul>
+            <li><img src="asset\react.png" alt="React logo"></li>
+            <li><img src="asset\bootstrap.png" alt="Bootstrap logo"></li>
+            <br>
+            <li><img src="asset\html.png" alt="HTML5 logo"></li>
+            <li><img src="asset\css.png" alt="CSS3 logo"></li>
+          </ul>
+        </div>
+    
+        <div class="section">
+          <h3>Database Management</h3>
+          <ul>
+            <li><img src="asset\mongodb.png" alt="MongoDB logo"></li>
+            <li><img src="asset\sql.png" alt="mySQL logo"></li>
+          </ul>
+        </div>
+      </div>
+</section>
+<!-- Projects Section -->
+<section id="projects">
+    <div class="container">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+
+            <!-- Project 1 -->
+            <div class="project-item">
+                <img src="asset\ss.png" alt="Project 1">
+                <div class="project-overlay">
+                    <h3>Handwritten Digit Recognition System</h3>
+                    <p>A Python-based system that uses machine learning to accurately recognize and classify handwritten digits from images.</p>
+                    <button class="view-project" data-project="project1">View More</button>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-item">
+                <img src="asset\1.png" alt="Project 2">
+                <div class="project-overlay">
+                    <h3>Online Medical Prescription System</h3>
+                    <p>It is a medical prescription web based application</p>
+                    <button class="view-project" data-project="project2">View More</button>
+                </div>
+            </div>
+
+               <!-- Project 3 -->
+               <div class="project-item">
+                <img src="asset\endless.png" alt="Project 1">
+                <div class="project-overlay">
+                    <h3>Endless World Game</h3>
+                    <p>Endless World is 2D game build in unity and scripted in c#. Player has to dodge obstacle</p>
+                    <button class="view-project" data-project="project3">View More</button>
+                </div>
+            </div>
+
+          
+
+        </div>
+    </div>
+
+    <!-- Modal for Project 1 -->
+    <div id="project1" class="project-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3>Handwritten Digit Recognition System</h3>
+            <div class="modal-images">
+                <img src="asset\55.png" alt="Project 1 Image 1">
+                <img src="asset\66.png" alt="Project 1 Image 2">
+                <img src="asset\77.png" alt="Project 1 Image 3">
+               
+            </div>
+            <p><b>Domain: Python application | Language: Python </b>
+                <br>
+                 Designed and implemented a real-time handwritten digit recognition system using Python.
+             Responsive user interface allowing users to input and visualize handwritten digits. 
+                 Utilized Python libraries such as TensorFlow for model training, image preprocessing, and real-time prediction.</p>
+        </div>
+    </div>
+
+    <!-- Modal for Project 2 -->
+    <div id="project2" class="project-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3>Online Medical Prescription System</h3>
+            <div class="modal-images">
+                <img src="asset\2.png" alt="Project 2 Image 1">
+                <img src="asset\3.png" alt="Project 2 Image 2">
+                <img src="asset\4.png" alt="Project 2 Image 3">
+            </div>
+            <p><b>Domain: Web application | Languages: React Js, Node Js, Tailwind CSS </b>
+                <br>
+                Designed and developed a web-based healthcare platform for online medical prescriptions where patient can ask for prescription remotely.
+                ReactJs for frontend development, Node Js for backend services, and Tailwind CSS for responsive UI design.
+                Implemented an AI-powered chatbot to provide medical advice. 
+                
+            </p>
+        </div>
+    </div>
+    
+        <!-- Modal for Project 3-->
+        <div id="project3" class="project-modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <h3>Endless world 2D</h3>
+                <div class="modal-images">
+                    <img src="asset\tt.png" alt="Project 1 Image 1">
+                    <img src="asset\rr.png" alt="Project 1 Image 2">
+                    <img src="asset\p2.png" alt="Project 1 Image 3">
+                    
+                </div>
+                <p>
+                   <b>Domain: Game Development | Technology: C#, Unity3D </b> 
+                   <br>
+                    Implemented procedural generation for dynamically generated environments and obstacles.
+                    Unity's physics engine for realistic gameplay mechanics. 
+                    Demonstrated proficiency in game design, programming, and Unity development</p>
+            </div>
+        </div>
+    
+   
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+    <div class="contact-container">
+        <h2>Contact Me</h2>
+        <p>If you have any questions or just want to get in touch, feel free to reach out!</p>
+        <div class="contact-info">
+            <div class="contact-item">
+                <h3>Email</h3>
+                <p><a target="_top" href="mailto:pankajtech1234@gmail.com">pankajtech1234@gmail.com</a></p>
+            </div>
+            <div class="contact-item">
+                <h3>Phone</h3>
+                <p><a href="tel:7807153932">7807153932</a></p>
+            </div>
+            <div class="contact-item">
+                <h3>Follow Me</h3>
+                <p>
+                    <a href="https://www.linkedin.com/in/pankaj-choudhary-2b5744184?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script src="script.js"></script>
+
+  
+</body>
+</html>
